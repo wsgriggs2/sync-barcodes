@@ -4,7 +4,7 @@
 
 int OUTPUT_PIN = 13;
 int BARCODE_BITS = 32;
-int INTER_BARCODE_INTERVAL = 30; // s
+int INTER_BARCODE_INTERVAL = 10; // s
 
 long barcode;
 
