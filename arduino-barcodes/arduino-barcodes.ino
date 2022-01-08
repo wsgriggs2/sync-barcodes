@@ -23,7 +23,8 @@
 */
 
 /////////////////USER INPUT///////////////////////////////////
-const int TOTAL_TIME = 10000;     // Total time between barcode initiation (includes initialization pulses) in milliseconds. The length of time between one barcode and the next
+const int TOTAL_TIME = 15000;     // Total time between barcode initiation (includes initialization pulses) in milliseconds. The length of time between one barcode and the next. This needs to be at least 
+// double the `TOTAL_BARCODE_TIME` for the barcode extraction script to work.
 ////////////END USER INPUT///////////////////////////////////
 
 const int LED_INTER_PIN = 13; // LED indicator for interbarcode delay
